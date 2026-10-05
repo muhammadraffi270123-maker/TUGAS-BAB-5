@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kelas Web Dasar - Offline</title>
+
+  <!-- Panggil file CSS Bootstrap lokal -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- Panggil file CSS kustom buatanmu sendiri -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-light">
+
+  <!-- NAVBAR BOOTSTRAP -->
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="#">KelasWeb</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto gap-2">
+          <li class="nav-item"><a class="nav-link" href="#fitur">Fitur</a></li>
+          <li class="nav-item"><a class="nav-link" href="#materi">Materi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#daftar">Daftar</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <main>
+    <section class="container py-5">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <span class="badge text-bg-success text-uppercase mb-2">Pemrograman Berbasis Web</span>
+          <h1 class="display-4 fw-bold text-dark">Bangun halaman web responsif untuk semua perangkat.</h1>
+          <p class="lead text-muted mt-3">Pelajari Flexbox, CSS Grid, media query, dan prinsip mobile-first melalui studi kasus landing page sederhana.</p>
+          <a href="#daftar" class="btn btn-success btn-lg rounded-pill fw-bold mt-3 px-4">Ikuti Praktikum</a>
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-dark text-white p-4 rounded-4 shadow-lg">
+            <div class="d-flex gap-2 mb-3">
+              <span class="p-2 bg-danger rounded-circle"></span>
+              <span class="p-2 bg-warning rounded-circle"></span>
+              <span class="p-2 bg-success rounded-circle"></span>
+            </div>
+            <div class="bg-primary bg-opacity-25 p-3 rounded mb-3 text-center">Mock Hero</div>
+            <div class="row g-2">
+              <div class="col-4"><div class="bg-primary bg-opacity-25 p-3 rounded text-center">1</div></div>
+              <div class="col-4"><div class="bg-primary bg-opacity-25 p-3 rounded text-center">2</div></div>
+              <div class="col-4"><div class="bg-primary bg-opacity-25 p-3 rounded text-center">3</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section id="fitur" class="container py-5">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm h-100 p-3">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Flexbox</h5>
+              <p class="card-text text-muted">Susun navigasi dan komponen satu dimensi dengan rapi.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm h-100 p-3">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">CSS Grid</h5>
+              <p class="card-text text-muted">Buat layout dua dimensi yang fleksibel dan konsisten.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm h-100 p-3">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Media Query</h5>
+              <p class="card-text text-muted">Sesuaikan tampilan berdasarkan ukuran viewport.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MATERI SECTION (CHECKLIST & TARGET PRAKTIKUM) -->
+    <section id="materi" class="container py-5">
+      <div class="row g-4">
+        <aside class="col-md-4">
+          <div class="card border-0 shadow-sm p-3 h-100">
+            <div class="card-body">
+              <h4 class="fw-bold mb-3">Checklist</h4>
+              <ul class="text-muted ps-3 mb-0">
+                <li class="mb-2">Viewport meta tag</li>
+                <li class="mb-2">Mobile-first CSS</li>
+                <li class="mb-2">Fluid image dan spacing</li>
+                <li>Inspect responsive mode</li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+
+        <article class="col-md-8">
+          <div class="card border-0 shadow-sm p-3 h-100">
+            <div class="card-body">
+              <h4 class="fw-bold mb-3">Target Praktikum</h4>
+              <p class="text-muted leading-relaxed mb-0">
+                Mahasiswa mampu mengubah struktur HTML dari pertemuan sebelumnya menjadi landing page responsif yang dapat dibaca dengan baik pada layar mobile, tablet, dan desktop.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="daftar" class="text-center py-4 text-muted border-top">
+    &copy; 2026 Kelas Web Dasar — Responsive Web Design
+  </footer>
+
+  <!-- Panggil file JS Bootstrap lokal -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
